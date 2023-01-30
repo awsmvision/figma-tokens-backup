@@ -1,0 +1,202 @@
+{
+  "color-text-blank": {
+    "value": "#FFFFFF",
+    "type": "color",
+    "description": "Полностью белый цвет"
+  },
+  "color-text-primary": {
+    "value": "#E1E5EA",
+    "type": "color",
+    "description": "Белый цвет для основного шрифта"
+  },
+  "color-text-secondary": {
+    "value": "#A7B4C4",
+    "type": "color",
+    "description": "Серый цвет для второстепенного шрифта"
+  },
+  "color-background-main": {
+    "value": "#14191F",
+    "type": "color",
+    "description": "Основной фон сайта"
+  },
+  "color-background-primary": {
+    "value": "#1C232B",
+    "type": "color",
+    "description": "Фон нижних подложек элементов"
+  },
+  "color-background-secondary": {
+    "value": "#29333D",
+    "type": "color",
+    "description": "Фон для верхних подложек сайта"
+  },
+  "color-status-error": {
+    "value": "#EC2A2A",
+    "type": "color",
+    "description": "Цвет для отображения ошибочных операций"
+  },
+  "color-status-success": {
+    "value": "#52C78F",
+    "type": "color",
+    "description": "Цвет для отображения позитивных операций"
+  },
+  "color-active-default": {
+    "value": "#00A1E7",
+    "type": "color",
+    "description": "Основной активный цвет"
+  },
+  "color-active-hover": {
+    "value": "#1EABE9",
+    "type": "color",
+    "description": "Активный цвет при наведении"
+  },
+  "color-active-pressed": {
+    "value": "#0096D8",
+    "type": "color",
+    "description": "Активный цвет при нажатии"
+  },
+  "color-active-ghost-default": {
+    "value": "#27323F",
+    "type": "color",
+    "description": "Основной полупрозрачный активный цвет"
+  },
+  "color-active-ghost-hover": {
+    "value": "#203753",
+    "type": "color",
+    "description": "Полупрозрачный активный цвет при наведении"
+  },
+  "color-stroke-default": {
+    "value": "#3D4A58",
+    "type": "color",
+    "description": "Цвет для обводки элементов"
+  },
+  "font-family-primary": {
+    "value": "Open Sans",
+    "type": "fontFamilies",
+    "description": "Основной шрифт сайта"
+  },
+  "font-size-xl": {
+    "value": "14",
+    "type": "fontSizes",
+    "description": "Основной размер шрифта для текста"
+  },
+  "font-size-xs": {
+    "value": "13",
+    "type": "fontSizes",
+    "description": "Размер второстепенного шрифта на сайте"
+  },
+  "font-height-xl": {
+    "value": "20",
+    "type": "lineHeights",
+    "description": "Высота строки для основного текста"
+  },
+  "font-height-xs": {
+    "value": "18",
+    "type": "lineHeights",
+    "description": "Высота строки для второстепенного текста"
+  },
+  "font-weight-semibold": {
+    "value": "600",
+    "type": "fontWeights",
+    "description": "Средняя жирность шрифта "
+  },
+  "font-weight-regular": {
+    "value": "400",
+    "type": "fontWeights",
+    "description": "Обычная жирность шрифта"
+  },
+  "font-body-xl-medium": {
+    "value": {
+      "fontFamily": "{font-family-primary}",
+      "fontWeight": "{font-weight-semibold}",
+      "lineHeight": "{font-height-xl}",
+      "fontSize": "{font-size-xl}"
+    },
+    "type": "typography",
+    "description": "Основной полужирный стиль текста"
+  },
+  "font-body-xl-normal": {
+    "value": {
+      "fontFamily": "{font-family-primary}",
+      "fontWeight": "{font-weight-regular}",
+      "lineHeight": "{font-height-xl}",
+      "fontSize": "{font-size-xl}"
+    },
+    "type": "typography",
+    "description": "Основной стиль текста сайта"
+  },
+  "font-body-xs-normal": {
+    "value": {
+      "fontFamily": "{font-family-primary}",
+      "fontWeight": "{font-weight-regular}",
+      "lineHeight": "{font-height-xs}",
+      "fontSize": "{font-size-xs}"
+    },
+    "type": "typography",
+    "description": "Второстепенный стиль текста сайта"
+  },
+  "font-body-xs-medium": {
+    "value": {
+      "fontFamily": "{font-family-primary}",
+      "fontWeight": "{font-weight-semibold}",
+      "lineHeight": "{font-height-xs}",
+      "fontSize": "{font-size-xs}"
+    },
+    "type": "typography",
+    "description": "Второстепеный полужирный стиль текста"
+  },
+  "spacing-content-basic": {
+    "value": "4",
+    "type": "spacing",
+    "description": "Основное расстояние между элеметам (4)"
+  },
+  "spacing-content-x2": {
+    "value": "{spacing-content-basic}*2",
+    "type": "spacing",
+    "description": "Удвоенное расстояние между элеметам (8)"
+  },
+  "spacing-content-x3": {
+    "value": "{spacing-content-basic}*3",
+    "type": "spacing",
+    "description": "Утроенное расстояние между элеметам (12)"
+  },
+  "spacing-content-x4": {
+    "value": "{spacing-content-basic}*4",
+    "type": "spacing",
+    "description": "Расстояние между блокам (16)"
+  },
+  "spacing-content-x6": {
+    "value": "{spacing-content-basic}*6",
+    "type": "spacing",
+    "description": "Расстояние между блокам (24)"
+  },
+  "spacing-content-x8": {
+    "value": "{spacing-content-basic}*8",
+    "type": "spacing",
+    "description": "Расстояние между блокам (32)"
+  },
+  "border-radius-default": {
+    "value": "8",
+    "type": "borderRadius",
+    "description": "Основное скругление углов у элементов"
+  },
+  "border-radius-circle": {
+    "value": "{border-radius-default}*120",
+    "type": "borderRadius",
+    "description": "Полностью круглые углы элементов"
+  },
+  "size-user-default": {
+    "value": "40",
+    "type": "sizing",
+    "description": "Основной размер аватара на сайте"
+  },
+  "size-iсon-default": {
+    "value": "24",
+    "type": "sizing",
+    "description": "Основной размер иконок на сайте"
+  },
+  "border-width-default": {
+    "value": "1",
+    "type": "borderWidth",
+    "description": "Основная толщина обводки элементов"
+  }
+}
